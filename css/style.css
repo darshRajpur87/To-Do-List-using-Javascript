@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+.Setitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid white;
+    padding: 20px;
+}
+.Setitem input[type="text"]{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    background-color: white;
+}
+.Setitem button{
+    padding: 9px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    background-color: yellow;
+    border: 3px solid yellow;
+    margin-left: 20px;
+}
+.Setitem button:hover{
+    background-color: black;
+    color: yellow;
+}
+.List-item{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-top: 20px;
+}
+.Main-todo-div{
+    display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin-bottom: 5px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.Main-todo-div li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+ }
+ .Main-todo-div button{
+    padding: 0px;
+    width: 80px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    background-color: yellow;
+    border: 3px solid yellow;
+    margin-left: 28px;
+    margin-bottom: 5px;
+}
+.Main-todo-div button:hover{
+    background-color: black;
+    color: yellow;
+}
